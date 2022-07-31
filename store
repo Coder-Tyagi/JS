@@ -1,0 +1,23 @@
+var string = "qwertyuioplkjhgfdsazxcvbnmi";
+
+for(var i=0;i<string.length;i++){
+
+for(var j=i+1;j<string.length;j++){
+   
+    if(string[i]===string[j]){
+
+        var a=true;
+
+    }
+    else{
+        b=true;
+    }
+
+}
+}
+if(a==true){
+    console.log('yes matched')
+}
+else{
+    console.log('not matched')
+}
